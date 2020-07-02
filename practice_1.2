@@ -449,7 +449,6 @@
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
   ctx.moveTo(arr[0]*10, arr[1]*10);
-  console.log(arr.length);
   for (let i = 0; i < arr.length; i += 2) {
     ctx.lineTo(arr[i]*50 -65, arr[i+1]*-50 + 60);
   }
